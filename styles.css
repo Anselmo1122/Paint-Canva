@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: #333333;
+}
+
+#canva {
+    border: 1px solid;
+    background: #fff;
+}
+
+.editor {
+    background: rgb(82, 82, 82);
+}
+.controls {
+    padding: .7rem;
+}
+.controls #color {
+    margin-right: 1rem;
+}
+.controls #lw {
+    width: 80%;
+}
